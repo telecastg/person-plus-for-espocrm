@@ -1,0 +1,16 @@
+{
+    "fields": {
+        "name": {
+            "type": "personNamePlus",
+            "view": "person-plus:views/fields/person-name-plus",
+            "isPersonalData": true
+        },
+        "motherMaidenName": {
+            "type": "varchar",
+            "maxLength":100,
+            "trim": true,
+            "default":"",
+            "isCustom": true
+        }
+    }
+}

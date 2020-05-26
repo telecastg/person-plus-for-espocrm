@@ -1,0 +1,55 @@
+{
+    "actualFields":[
+        "salutation",
+        "first",
+        "last",
+        "middle",
+        "motherMaiden"
+    ],
+    "notActualFields": [
+        ""
+    ],
+    "params":[
+        {
+            "name":"required",
+            "type":"bool",
+            "default":false
+        }
+    ],
+    "fields":{
+        "salutation":{
+            "type":"enum"
+        },
+        "first":{
+            "type":"varchar",
+            "trim": true
+        },
+        "last":{
+            "type":"varchar",
+            "trim": true
+        },
+        "middle":{
+            "type": "varchar",
+            "trim": true,
+            "maxLength": 100
+        },
+        "motherMaiden":{
+            "type": "varchar",
+            "trim": true,
+            "maxLength": 100
+        }
+    },
+    "naming":"prefix",
+    "notMergeable":true,
+    "notCreatable":true,
+    "filter":true,
+    "skipOrmDefs": true,
+    "personalData": true,
+    "textFilter": true,
+    "fullTextSearch": true,
+    "validationList": ["required"],
+    "fullTextSearchColumnList": [
+        "first",
+        "last"
+    ]
+}
