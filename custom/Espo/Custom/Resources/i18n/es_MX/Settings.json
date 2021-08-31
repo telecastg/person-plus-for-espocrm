@@ -5,9 +5,9 @@
             "lastFirst": "Apellido Nombre",
             "firstMiddleLast": "Primer Nombre Segundo Nombre Apellido",
             "lastFirstMiddle": "Apellido Primer Nombre Segundo Nombre",
-            "firstMiddleLastMother": "Primer Nombre Segundo Nombre Apellido Segundo Apellido",
+            "firstMiddleLastMother": "Primer Nombre Segundo Nombre Apellido Paterno Apellido Materno",
             "firstMiddleLastSuffix": "Primer Nombre segundo Nombre Apellido Sufijo",
-            "firstMiddleLastMotherSuffix": "Primer Nombre Segundo Nombre Apellido Segundo Apellido Sufijo"            
+            "firstMiddleLastMotherSuffix": "Primer Nombre Segundo Nombre Apellido Paterno Apellido Materno Sufijo"            
         }        
     }
 }
