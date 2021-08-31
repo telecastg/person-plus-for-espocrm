@@ -1,0 +1,13 @@
+{
+    "options": {
+        "personNameFormat": {
+            "firstLast": "Nombre Apellido",
+            "lastFirst": "Apellido Nombre",
+            "firstMiddleLast": "Primer Nombre Segundo Nombre Apellido",
+            "lastFirstMiddle": "Apellido Primer Nombre Segundo Nombre",
+            "firstMiddleLastMother": "Primer Nombre Segundo Nombre Apellido Segundo Apellido",
+            "firstMiddleLastSuffix": "Primer Nombre segundo Nombre Apellido Sufijo",
+            "firstMiddleLastMotherSuffix": "Primer Nombre Segundo Nombre Apellido Segundo Apellido Sufijo"            
+        }        
+    }
+}
