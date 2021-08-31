@@ -1,0 +1,16 @@
+{
+    "fields": {
+        "personNameFormat": {
+            "type": "enum",
+            "options": [
+                "firstLast",
+                "lastFirst",
+                "firstMiddleLast",
+                "lastFirstMiddle",
+                "firstMiddleLastMother",
+                "firstMiddleLastSuffix",
+                "firstMiddleLastMotherSuffix"
+            ]
+        }
+    }
+}
