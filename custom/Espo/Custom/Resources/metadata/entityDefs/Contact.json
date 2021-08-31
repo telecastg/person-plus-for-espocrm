@@ -1,0 +1,23 @@
+{
+    "fields": {
+        "motherName": {
+            "type": "varchar",
+            "maxLength": 100,
+            "required": false,
+            "default":"",
+            "trim": true           
+        },
+        "suffixName": {
+            "type": "enum",
+            "options": ["", "Jr", "Sr", "Esq", "PhD"]
+        },
+        "preferredName": {
+            "type": "varchar",
+            "maxLength": 50,
+            "required": false,
+            "default":"",
+            "trim": true                       
+        }
+        
+    }
+}
