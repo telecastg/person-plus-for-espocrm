@@ -54,7 +54,6 @@ define('custom:views/fields/person-name', 'views/fields/person-name', function (
         },
 
         afterRender: function () {
-            console.log('custom:views/fields/person-name.js afterRender() this = ', this);
             Dep.prototype.afterRender.call(this);
             if (this.mode == 'edit') {
                 this.$salutation = this.$el.find('[data-name="' + this.salutationField + '"]');
