@@ -1,0 +1,7 @@
+{
+    "fields": {
+        "motherName": "Apellido Materno",
+        "suffixName": "Sufijo",
+        "preferredName": "Nombre Preferido"
+    }
+}
