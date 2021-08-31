@@ -1,6 +1,11 @@
 {
     "labels" : {
         "Mother Maiden Name": "Apellido Materno",
+        "Middle Name": "Segundo Nombre",
         "Suffix": "Sufijo"
+    },
+    "fields": {
+        "preferredName": "Nombre Preferido"
     }
+
 }
