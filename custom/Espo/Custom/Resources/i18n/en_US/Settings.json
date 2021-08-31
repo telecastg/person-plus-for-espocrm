@@ -1,0 +1,13 @@
+{
+    "options": {
+        "personNameFormat": {
+            "firstLast": "First Last",
+            "lastFirst": "Last First",
+            "firstMiddleLast": "First Middle Last",
+            "lastFirstMiddle": "Last First Middle",
+            "firstMiddleLastMother": "First Middle Last Mother's Maiden",
+            "firstMiddleLastSuffix": "First Middle Last Suffix",
+            "firstMiddleLastMotherSuffix": "First Middle Last Mother's Maiden Suffix"            
+        }        
+    }
+}
